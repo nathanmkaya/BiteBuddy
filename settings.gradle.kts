@@ -1,5 +1,11 @@
 @file:Suppress("UnstableApiUsage")
 
+include(":shared")
+
+
+include(":android")
+
+
 rootProject.name = "BiteBuddy"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
@@ -29,5 +35,3 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-
-include(":composeApp")
