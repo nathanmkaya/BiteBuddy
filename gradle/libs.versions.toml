@@ -18,7 +18,7 @@ lifecycleRuntimeKtx = "2.8.7"
 composeBom = "2025.04.01"
 kotlinStdlib = "2.1.20"
 runner = "1.6.2"
-core = "1.6.1"
+core = "1.7.0"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
